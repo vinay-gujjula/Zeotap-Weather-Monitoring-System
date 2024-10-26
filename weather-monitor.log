@@ -1,0 +1,38 @@
+2024-10-26T00:40:28.397+05:30  INFO 21108 --- [main] c.w.m.controller.WeatherControllerTest   : Starting WeatherControllerTest using Java 17.0.6 with PID 21108 (started by Sreekath in D:\Program Files\weather-monitoring-system)
+2024-10-26T00:40:28.408+05:30  INFO 21108 --- [main] c.w.m.controller.WeatherControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2024-10-26T00:40:36.547+05:30  INFO 21108 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-10-26T00:40:37.431+05:30  INFO 21108 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-10-26T00:40:37.432+05:30  INFO 21108 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-10-26T00:40:37.439+05:30  INFO 21108 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 5 ms
+2024-10-26T00:40:37.567+05:30  INFO 21108 --- [main] c.w.m.controller.WeatherControllerTest   : Started WeatherControllerTest in 10.278 seconds (process running for 15.197)
+2024-10-26T00:40:38.202+05:30  INFO 21108 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.weather.monitor.service.WeatherServiceTest]: WeatherServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-10-26T00:40:38.228+05:30  INFO 21108 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.weather.monitor.WeatherMonitoringApplication for test class com.weather.monitor.service.WeatherServiceTest
+2024-10-26T00:40:38.246+05:30  INFO 21108 --- [main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+2024-10-26T00:40:38.321+05:30  INFO 21108 --- [main] c.w.monitor.service.WeatherServiceTest   : Starting WeatherServiceTest using Java 17.0.6 with PID 21108 (started by Sreekath in D:\Program Files\weather-monitoring-system)
+2024-10-26T00:40:38.322+05:30  INFO 21108 --- [main] c.w.monitor.service.WeatherServiceTest   : No active profile set, falling back to 1 default profile: "default"
+2024-10-26T00:40:40.291+05:30  INFO 21108 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-26T00:40:40.437+05:30  INFO 21108 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 126 ms. Found 2 JPA repository interfaces.
+2024-10-26T00:40:41.858+05:30  INFO 21108 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-26T00:40:42.113+05:30  INFO 21108 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2024-10-26T00:40:42.254+05:30  INFO 21108 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-26T00:40:42.641+05:30  INFO 21108 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-26T00:40:42.717+05:30  INFO 21108 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-26T00:40:43.353+05:30  INFO 21108 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./weatherdb user=SA
+2024-10-26T00:40:43.356+05:30  INFO 21108 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-26T00:40:43.399+05:30  WARN 21108 --- [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-26T00:40:44.735+05:30  INFO 21108 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-26T00:40:44.785+05:30  INFO 21108 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-26T00:40:46.897+05:30  WARN 21108 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-26T00:40:47.013+05:30  INFO 21108 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-10-26T00:40:48.849+05:30  INFO 21108 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./weatherdb'
+2024-10-26T00:40:49.062+05:30  INFO 21108 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-10-26T00:40:49.359+05:30  INFO 21108 --- [main] c.w.monitor.service.WeatherServiceTest   : Started WeatherServiceTest in 11.112 seconds (process running for 26.988)
+2024-10-26T00:40:50.359+05:30  WARN 21108 --- [main] c.w.monitor.service.WeatherService       : ALERT: Temperature in Delhi is 36.0, exceeding threshold of 35.0
+2024-10-26T00:40:50.362+05:30  WARN 21108 --- [main] c.w.monitor.service.WeatherService       : ALERT: Temperature in Mumbai is 36.0, exceeding threshold of 35.0
+2024-10-26T00:40:50.368+05:30  WARN 21108 --- [main] c.w.monitor.service.WeatherService       : ALERT: Temperature in Chennai is 36.0, exceeding threshold of 35.0
+2024-10-26T00:40:50.372+05:30  WARN 21108 --- [main] c.w.monitor.service.WeatherService       : ALERT: Temperature in Bangalore is 36.0, exceeding threshold of 35.0
+2024-10-26T00:40:50.374+05:30  WARN 21108 --- [main] c.w.monitor.service.WeatherService       : ALERT: Temperature in Kolkata is 36.0, exceeding threshold of 35.0
+2024-10-26T00:40:50.379+05:30  WARN 21108 --- [main] c.w.monitor.service.WeatherService       : ALERT: Temperature in Hyderabad is 36.0, exceeding threshold of 35.0
+2024-10-26T00:40:52.038+05:30  INFO 21108 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-26T00:40:52.046+05:30  INFO 21108 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-26T00:40:52.329+05:30  INFO 21108 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
