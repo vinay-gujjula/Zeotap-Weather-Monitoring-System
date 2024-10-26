@@ -50,7 +50,7 @@ A Spring Boot application that provides real-time weather monitoring for major I
 
 1. Clone the repository:
 bash
-git clone https://github.com/yourusername/weather-monitoring-system.git
+git clone https://github.com/vinay-gujjula/Zeotap-Weather-Monitoring-System.git
 cd weather-monitoring-system
 ```
 
